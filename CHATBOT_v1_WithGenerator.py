@@ -41,11 +41,6 @@ class ChatBot():
     self.model_history = None
     self.pbar = None
     self.embeddings_input_matrix = []
-    # self.datagen = self.DataGen(self.docs_x,
-    #     self.y,
-    #     self.batch_size,
-    #     self.embeddings_index,
-    #     self.max_symptoms_count)
     
 
   #Loading Data
@@ -337,10 +332,10 @@ def train_chatbot_first_time():
     chatbot.train_with_datagen()
     return chatbot
 
-def save_chatbot_as_pickle(chatbot):
-    filehandler = open("./chatbot_v1", 'wb') 
-    pickle.dump(chatbot, filehandler)
-    filehandler.close()
+# def save_chatbot_as_pickle(chatbot):
+#     filehandler = open("./chatbot_v1", 'wb') 
+#     pickle.dump(chatbot, filehandler)
+#     filehandler.close()
 
 def predict_from_list(chatbot, lis):
     predicted_disease = chatbot.predict_from_list(lis)
@@ -357,7 +352,7 @@ def continuous_prediction(chatbot):
 
 if __name__=="__main__":
     chatbot = train_chatbot_first_time()
-    save_chatbot_as_pickle(chatbot)
+    #save_chatbot_as_pickle(chatbot)
     lis = ["indigestion",
         "stiff_neck",
         "irritability",
