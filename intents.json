@@ -1,0 +1,775 @@
+{
+	"intents": 
+	[
+	{
+    "tag": "Fungal infection",
+    "patterns": [
+        "skin_rash",
+        "dischromic _patches",
+        "itching",
+        "nodal_skin_eruptions"
+    ],
+    "responses": [
+        "Fungal infection",
+        "bath twice",
+        "use detol or neem in bathing water",
+        "keep infected area dry",
+        "use clean cloths"
+    ]
+},{
+    "tag": "Allergy",
+    "patterns": [
+        "chills",
+        "shivering",
+        "continuous_sneezing"
+    ],
+    "responses": [
+        "Allergy",
+        "watering_from_eyes",
+        "apply calamine",
+        "cover area with bandage",
+        "use ice to compress itching"
+    ]
+},{
+    "tag": "GERD",
+    "patterns": [
+        "vomiting",
+        "chest_pain",
+        "acidity",
+        "ulcers_on_tongue",
+        "stomach_pain",
+        "cough"
+    ],
+    "responses": [
+        "GERD",
+        "avoid fatty spicy food",
+        "avoid lying down after eating",
+        "maintain healthy weight",
+        "exercise"
+    ]
+},{
+    "tag": "Chronic cholestasis",
+    "patterns": [
+        "vomiting",
+        "nausea",
+        "yellowish_skin",
+        "abdominal_pain",
+        "loss_of_appetite",
+        "yellowing_of_eyes",
+        "itching"
+    ],
+    "responses": [
+        "Chronic cholestasis",
+        "cold baths",
+        "anti itch medicine",
+        "consult doctor",
+        "eat healthy"
+    ]
+},{
+    "tag": "Drug Reaction",
+    "patterns": [
+        "burning_micturition",
+        "skin_rash",
+        "spotting_ urination",
+        "stomach_pain",
+        "itching"
+    ],
+    "responses": [
+        "Drug Reaction",
+        "stop irritation",
+        "consult nearest hospital",
+        "stop taking drug",
+        "follow up"
+    ]
+},{
+    "tag": "Peptic ulcer diseae",
+    "patterns": [
+        "vomiting",
+        "indigestion",
+        "passage_of_gases",
+        "loss_of_appetite",
+        "abdominal_pain",
+        "internal_itching"
+    ],
+    "responses": [
+        "Peptic ulcer diseae",
+        "avoid fatty spicy food",
+        "consume probiotic food",
+        "eliminate milk",
+        "limit alcohol"
+    ]
+},{
+    "tag": "AIDS",
+    "patterns": [
+        "extra_marital_contacts",
+        "patches_in_throat",
+        "high_fever",
+        "muscle_wasting"
+    ],
+    "responses": [
+        "AIDS",
+        "avoid open cuts",
+        "wear ppe if possible",
+        "consult doctor",
+        "follow up"
+    ]
+},{
+    "tag": "Diabetes ",
+    "patterns": [
+        "lethargy",
+        "increased_appetite",
+        "fatigue",
+        "obesity",
+        "irregular_sugar_level",
+        "restlessness",
+        "weight_loss",
+        "blurred_and_distorted_vision",
+        "excessive_hunger",
+        "polyuria"
+    ],
+    "responses": [
+        "Diabetes ",
+        "have balanced diet",
+        "exercise",
+        "consult doctor",
+        "follow up"
+    ]
+},{
+    "tag": "Gastroenteritis",
+    "patterns": [
+        "diarrhoea",
+        "vomiting",
+        "dehydration",
+        "sunken_eyes"
+    ],
+    "responses": [
+        "Gastroenteritis",
+        "stop eating solid food for while",
+        "try taking small sips of water",
+        "rest",
+        "ease back into eating"
+    ]
+},{
+    "tag": "Bronchial Asthma",
+    "patterns": [
+        "high_fever",
+        "breathlessness",
+        "fatigue",
+        "mucoid_sputum",
+        "cough",
+        "family_history"
+    ],
+    "responses": [
+        "Bronchial Asthma",
+        "switch to loose cloothing",
+        "take deep breaths",
+        "get away from trigger",
+        "seek help"
+    ]
+},{
+    "tag": "Hypertension ",
+    "patterns": [
+        "lack_of_concentration",
+        "headache",
+        "chest_pain",
+        "dizziness",
+        "loss_of_balance"
+    ],
+    "responses": [
+        "Hypertension ",
+        "meditation",
+        "salt baths",
+        "reduce stress",
+        "get proper sleep"
+    ]
+},{
+    "tag": "Migraine",
+    "patterns": [
+        "indigestion",
+        "stiff_neck",
+        "irritability",
+        "headache",
+        "acidity",
+        "excessive_hunger",
+        "blurred_and_distorted_vision",
+        "depression",
+        "visual_disturbances"
+    ],
+    "responses": [
+        "Migraine",
+        "meditation",
+        "reduce stress",
+        "use poloroid glasses in sun",
+        "consult doctor"
+    ]
+},{
+    "tag": "Cervical spondylosis",
+    "patterns": [
+        "weakness_in_limbs",
+        "back_pain",
+        "dizziness",
+        "neck_pain",
+        "loss_of_balance"
+    ],
+    "responses": [
+        "Cervical spondylosis",
+        "use heating pad or cold pack",
+        "exercise",
+        "take otc pain reliver",
+        "consult doctor"
+    ]
+},{
+    "tag": "Paralysis (brain hemorrhage)",
+    "patterns": [
+        "headache",
+        "vomiting",
+        "weakness_of_one_body_side",
+        "altered_sensorium"
+    ],
+    "responses": [
+        "Paralysis (brain hemorrhage)",
+        "massage",
+        "eat healthy",
+        "exercise",
+        "consult doctor"
+    ]
+},{
+    "tag": "Jaundice",
+    "patterns": [
+        "vomiting",
+        "high_fever",
+        "fatigue",
+        "yellowish_skin",
+        "dark_urine",
+        "abdominal_pain",
+        "weight_loss",
+        "itching"
+    ],
+    "responses": [
+        "Jaundice",
+        "drink plenty of water",
+        "consume milk thistle",
+        "eat fruits and high fiberous food",
+        "medication"
+    ]
+},{
+    "tag": "Malaria",
+    "patterns": [
+        "vomiting",
+        "high_fever",
+        "nausea",
+        "sweating",
+        "headache",
+        "muscle_pain",
+        "diarrhoea",
+        "chills"
+    ],
+    "responses": [
+        "Malaria",
+        "Consult nearest hospital",
+        "avoid oily food",
+        "avoid non veg food",
+        "keep mosquitos out"
+    ]
+},{
+    "tag": "Chicken pox",
+    "patterns": [
+        "high_fever",
+        "lethargy",
+        "fatigue",
+        "headache",
+        "loss_of_appetite",
+        "mild_fever",
+        "red_spots_over_body",
+        "malaise",
+        "skin_rash",
+        "swelled_lymph_nodes",
+        "itching"
+    ],
+    "responses": [
+        "Chicken pox",
+        "use neem in bathing ",
+        "consume neem leaves",
+        "take vaccine",
+        "avoid public places"
+    ]
+},{
+    "tag": "Dengue",
+    "patterns": [
+        "vomiting",
+        "high_fever",
+        "joint_pain",
+        "nausea",
+        "pain_behind_the_eyes",
+        "fatigue",
+        "headache",
+        "back_pain",
+        "muscle_pain",
+        "loss_of_appetite",
+        "red_spots_over_body",
+        "malaise",
+        "skin_rash",
+        "chills"
+    ],
+    "responses": [
+        "Dengue",
+        "drink papaya leaf juice",
+        "avoid fatty spicy food",
+        "keep mosquitos away",
+        "keep hydrated"
+    ]
+},{
+    "tag": "Typhoid",
+    "patterns": [
+        "vomiting",
+        "high_fever",
+        "nausea",
+        "fatigue",
+        "headache",
+        "abdominal_pain",
+        "belly_pain",
+        "constipation",
+        "toxic_look_(typhos)",
+        "diarrhoea",
+        "chills"
+    ],
+    "responses": [
+        "Typhoid",
+        "eat high calorie vegitables",
+        "antiboitic therapy",
+        "consult doctor",
+        "medication"
+    ]
+},{
+    "tag": "hepatitis A",
+    "patterns": [
+        "vomiting",
+        "joint_pain",
+        "nausea",
+        "muscle_pain",
+        "yellowish_skin",
+        "dark_urine",
+        "loss_of_appetite",
+        "abdominal_pain",
+        "mild_fever",
+        "diarrhoea",
+        "yellowing_of_eyes"
+    ],
+    "responses": [
+        "hepatitis A",
+        "Consult nearest hospital",
+        "wash hands through",
+        "avoid fatty spicy food",
+        "medication"
+    ]
+},{
+    "tag": "Hepatitis B",
+    "patterns": [
+        "lethargy",
+        "fatigue",
+        "yellowish_skin",
+        "dark_urine",
+        "loss_of_appetite",
+        "abdominal_pain",
+        "receiving_unsterile_injections",
+        "receiving_blood_transfusion",
+        "yellow_urine",
+        "malaise",
+        "yellowing_of_eyes",
+        "itching"
+    ],
+    "responses": [
+        "Hepatitis B",
+        "consult nearest hospital",
+        "vaccination",
+        "eat healthy",
+        "medication"
+    ]
+},{
+    "tag": "Hepatitis C",
+    "patterns": [
+        "nausea",
+        "fatigue",
+        "yellowish_skin",
+        "loss_of_appetite",
+        "yellowing_of_eyes",
+        "family_history"
+    ],
+    "responses": [
+        "Hepatitis C",
+        "Consult nearest hospital",
+        "vaccination",
+        "eat healthy",
+        "medication"
+    ]
+},{
+    "tag": "Hepatitis D",
+    "patterns": [
+        "vomiting",
+        "joint_pain",
+        "nausea",
+        "fatigue",
+        "yellowish_skin",
+        "dark_urine",
+        "loss_of_appetite",
+        "abdominal_pain",
+        "yellowing_of_eyes"
+    ],
+    "responses": [
+        "Hepatitis D",
+        "consult doctor",
+        "medication",
+        "eat healthy",
+        "follow up"
+    ]
+},{
+    "tag": "Hepatitis E",
+    "patterns": [
+        "vomiting",
+        "high_fever",
+        "joint_pain",
+        "nausea",
+        "fatigue",
+        "yellowish_skin",
+        "dark_urine",
+        "loss_of_appetite",
+        "abdominal_pain",
+        "stomach_bleeding",
+        "acute_liver_failure",
+        "coma",
+        "yellowing_of_eyes"
+    ],
+    "responses": [
+        "Hepatitis E",
+        "stop alcohol consumption",
+        "rest",
+        "consult doctor",
+        "medication"
+    ]
+},{
+    "tag": "Alcoholic hepatitis",
+    "patterns": [
+        "vomiting",
+        "fluid_overload",
+        "swelling_of_stomach",
+        "history_of_alcohol_consumption",
+        "yellowish_skin",
+        "abdominal_pain",
+        "distention_of_abdomen"
+    ],
+    "responses": [
+        "Alcoholic hepatitis",
+        "stop alcohol consumption",
+        "consult doctor",
+        "medication",
+        "follow up"
+    ]
+},{
+    "tag": "Tuberculosis",
+    "patterns": [
+        "vomiting",
+        "high_fever",
+        "breathlessness",
+        "sweating",
+        "blood_in_sputum",
+        "fatigue",
+        "chest_pain",
+        "phlegm",
+        "loss_of_appetite",
+        "mild_fever",
+        "weight_loss",
+        "malaise",
+        "swelled_lymph_nodes",
+        "yellowing_of_eyes",
+        "chills",
+        "cough"
+    ],
+    "responses": [
+        "Tuberculosis",
+        "cover mouth",
+        "consult doctor",
+        "medication",
+        "rest"
+    ]
+},{
+    "tag": "Common Cold",
+    "patterns": [
+        "high_fever",
+        "sinus_pressure",
+        "continuous_sneezing",
+        "fatigue",
+        "headache",
+        "congestion",
+        "chest_pain",
+        "phlegm",
+        "runny_nose",
+        "muscle_pain",
+        "loss_of_smell",
+        "throat_irritation",
+        "malaise",
+        "swelled_lymph_nodes",
+        "chills",
+        "cough",
+        "redness_of_eyes"
+    ],
+    "responses": [
+        "Common Cold",
+        "drink vitamin c rich drinks",
+        "take vapour",
+        "avoid cold food",
+        "keep fever in check"
+    ]
+},{
+    "tag": "Pneumonia",
+    "patterns": [
+        "high_fever",
+        "breathlessness",
+        "sweating",
+        "fatigue",
+        "chest_pain",
+        "rusty_sputum",
+        "phlegm",
+        "fast_heart_rate",
+        "malaise",
+        "chills",
+        "cough"
+    ],
+    "responses": [
+        "Pneumonia",
+        "consult doctor",
+        "medication",
+        "rest",
+        "follow up"
+    ]
+},{
+    "tag": "Dimorphic hemmorhoids(piles)",
+    "patterns": [
+        "pain_in_anal_region",
+        "bloody_stool",
+        "pain_during_bowel_movements",
+        "constipation",
+        "irritation_in_anus"
+    ],
+    "responses": [
+        "Dimorphic hemmorhoids(piles)",
+        "avoid fatty spicy food",
+        "consume witch hazel",
+        "warm bath with epsom salt",
+        "consume alovera juice"
+    ]
+},{
+    "tag": "Heart attack",
+    "patterns": [
+        "vomiting",
+        "breathlessness",
+        "sweating"
+    ],
+    "responses": [
+        "Heart attack",
+        "chest_pain",
+        "call ambulance",
+        "chew or swallow asprin",
+        "keep calm"
+    ]
+},{
+    "tag": "Varicose veins",
+    "patterns": [
+        "fatigue",
+        "cramps",
+        "obesity",
+        "swollen_legs",
+        "prominent_veins_on_calf",
+        "bruising",
+        "swollen_blood_vessels"
+    ],
+    "responses": [
+        "Varicose veins",
+        "lie down flat and raise the leg high",
+        "use oinments",
+        "use vein compression",
+        "dont stand still for long"
+    ]
+},{
+    "tag": "Hypothyroidism",
+    "patterns": [
+        "puffy_face_and_eyes",
+        "lethargy",
+        "irritability",
+        "fatigue",
+        "enlarged_thyroid",
+        "cold_hands_and_feets",
+        "dizziness",
+        "weight_gain",
+        "depression",
+        "mood_swings",
+        "swollen_extremeties",
+        "abnormal_menstruation",
+        "brittle_nails"
+    ],
+    "responses": [
+        "Hypothyroidism",
+        "reduce stress",
+        "exercise",
+        "eat healthy",
+        "get proper sleep"
+    ]
+},{
+    "tag": "Hyperthyroidism",
+    "patterns": [
+        "irritability",
+        "sweating",
+        "fatigue",
+        "muscle_weakness",
+        "excessive_hunger",
+        "restlessness",
+        "weight_loss",
+        "fast_heart_rate",
+        "diarrhoea",
+        "mood_swings",
+        "abnormal_menstruation"
+    ],
+    "responses": [
+        "Hyperthyroidism",
+        "eat healthy",
+        "massage",
+        "use lemon balm",
+        "take radioactive iodine treatment"
+    ]
+},{
+    "tag": "Hypoglycemia",
+    "patterns": [
+        "vomiting",
+        "nausea",
+        "sweating",
+        "irritability",
+        "fatigue",
+        "headache",
+        "drying_and_tingling_lips",
+        "excessive_hunger",
+        "palpitations",
+        "blurred_and_distorted_vision",
+        "slurred_speech",
+        "anxiety"
+    ],
+    "responses": [
+        "Hypoglycemia",
+        "lie down on side",
+        "check in pulse",
+        "drink sugary drinks",
+        "consult doctor"
+    ]
+},{
+    "tag": "Osteoarthristis",
+    "patterns": [
+        "swelling_joints",
+        "joint_pain",
+        "hip_joint_pain",
+        "painful_walking",
+        "knee_pain",
+        "neck_pain"
+    ],
+    "responses": [
+        "Osteoarthristis",
+        "acetaminophen",
+        "consult nearest hospital",
+        "follow up",
+        "salt baths"
+    ]
+},{
+    "tag": "Arthritis",
+    "patterns": [
+        "swelling_joints",
+        "stiff_neck",
+        "painful_walking",
+        "muscle_weakness",
+        "movement_stiffness"
+    ],
+    "responses": [
+        "Arthritis",
+        "exercise",
+        "use hot and cold therapy",
+        "try acupuncture",
+        "massage"
+    ]
+},{
+    "tag": "(vertigo) Paroymsal  Positional Vertigo",
+    "patterns": [
+        "vomiting",
+        "nausea",
+        "headache",
+        "unsteadiness",
+        "spinning_movements",
+        "loss_of_balance"
+    ],
+    "responses": [
+        "(vertigo) Paroymsal  Positional Vertigo",
+        "lie down",
+        "avoid sudden change in body",
+        "avoid abrupt head movment",
+        "relax"
+    ]
+},{
+    "tag": "Acne",
+    "patterns": [
+        "skin_rash",
+        "blackheads",
+        "scurring",
+        "pus_filled_pimples"
+    ],
+    "responses": [
+        "Acne",
+        "bath twice",
+        "avoid fatty spicy food",
+        "drink plenty of water",
+        "avoid too many products"
+    ]
+},{
+    "tag": "Urinary tract infection",
+    "patterns": [
+        "foul_smell_of urine",
+        "burning_micturition",
+        "bladder_discomfort",
+        "continuous_feel_of_urine"
+    ],
+    "responses": [
+        "Urinary tract infection",
+        "drink plenty of water",
+        "increase vitamin c intake",
+        "drink cranberry juice",
+        "take probiotics"
+    ]
+},{
+    "tag": "Psoriasis",
+    "patterns": [
+        "joint_pain",
+        "skin_peeling",
+        "silver_like_dusting",
+        "inflammatory_nails",
+        "skin_rash",
+        "small_dents_in_nails"
+    ],
+    "responses": [
+        "Psoriasis",
+        "wash hands with warm soapy water",
+        "stop bleeding using pressure",
+        "consult doctor",
+        "salt baths"
+    ]
+},{
+    "tag": "Impetigo",
+    "patterns": [
+        "high_fever",
+        "blister",
+        "red_sore_around_nose",
+        "yellow_crust_ooze",
+        "skin_rash"
+    ],
+    "responses": [
+        "Impetigo",
+        "soak affected area in warm water",
+        "use antibiotics",
+        "remove scabs with wet compressed cloth",
+        "consult doctor"
+    ]
+}]
+}
